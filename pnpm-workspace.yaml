@@ -1,0 +1,3 @@
+packages:
+  # cada carpeta dentro de esta ruta es un package.
+  - './**'
