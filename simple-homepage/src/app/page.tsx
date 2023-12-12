@@ -8,7 +8,7 @@ export default function Home() {
   const count = useStore(state => state.count)
 
   return (
-    <main className="px-4 sm:px-16 xl:px-36 border border-slate-400 bg-slate-100">
+    <main className="px-4 sm:px-16 xl:px-36 bg-slate-100 dark:bg-slate-800">
       <Navbar />
       <Header />
       {count}
