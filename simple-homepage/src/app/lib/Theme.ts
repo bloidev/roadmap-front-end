@@ -1,6 +1,6 @@
 "use client"
 
-import { create } from 'zustand'
+import { create } from 'zustand' //npm install zustand
 
 type Store = {
     theme: string

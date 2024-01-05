@@ -1,4 +1,4 @@
-import ThemeToggle from "@/ui/components/ThemeToggle"
+import ThemeToggle from "@/app/ui/components/ThemeToggle"
 import Link from "next/link"
 
 export default function Navbar(){
@@ -19,19 +19,16 @@ export default function Navbar(){
                     <path d="M133.843 20.976C132.531 20.976 131.347 20.696 130.291 20.136C129.251 19.576 128.427 18.776 127.819 17.736C127.227 16.696 126.931 15.48 126.931 14.088C126.931 12.712 127.235 11.504 127.843 10.464C128.451 9.40799 129.283 8.59999 130.339 8.03999C131.395 7.47999 132.579 7.19999 133.891 7.19999C135.203 7.19999 136.387 7.47999 137.443 8.03999C138.499 8.59999 139.331 9.40799 139.939 10.464C140.547 11.504 140.851 12.712 140.851 14.088C140.851 15.464 140.539 16.68 139.915 17.736C139.307 18.776 138.467 19.576 137.395 20.136C136.339 20.696 135.155 20.976 133.843 20.976ZM133.843 17.424C134.627 17.424 135.291 17.136 135.835 16.56C136.395 15.984 136.675 15.16 136.675 14.088C136.675 13.016 136.403 12.192 135.859 11.616C135.331 11.04 134.675 10.752 133.891 10.752C133.091 10.752 132.427 11.04 131.899 11.616C131.371 12.176 131.107 13 131.107 14.088C131.107 15.16 131.363 15.984 131.875 16.56C132.403 17.136 133.059 17.424 133.843 17.424Z" className="fill-slate-800 dark:fill-slate-100"/>
                 </svg>
             </Link>
-            <ul className="hidden sm:flex sm:flex-row sm:space-x-4 sm:items-center">
-                <li className="font-bold text-slate-600 dark:text-slate-300 dark:hover:text-slate-500 transition-colors">
-                    <Link href="/about">About us</Link>
-                </li>
-                <li className="font-bold text-slate-500 dark:text-slate-300 dark:hover:text-slate-500 transition-colors">
-                    <Link href="/portfolio" >Portfolio</Link>
-                </li>
+            <ul className="hidden sm:flex sm:flex-row sm:space-x-4 sm:items-center">                
                 <li className="font-bold text-slate-500 dark:text-slate-300 dark:hover:text-slate-500 transition-colors">
                     <Link href="/blog" >Blog</Link>
                 </li>
                 <li className="font-bold text-slate-500 dark:text-slate-300 dark:hover:text-slate-500 transition-colors">
-                    <Link href="/contact" >Contact</Link>
+                    <Link href="/docs" >Docs</Link>
                 </li>
+                <li className="font-bold text-slate-500 dark:text-slate-300 dark:hover:text-slate-500 transition-colors">
+                    <Link href="/portfolio" >Portafolio</Link>
+                </li>                                
             </ul>            
             <div>                
                 <ThemeToggle />
